@@ -104,3 +104,7 @@ int main(){
     cudaFree(Z);
     return 0;
 }
+
+
+nvcc 4_vecadd.cu
+./a.out
